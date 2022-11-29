@@ -1,9 +1,9 @@
 import React from 'react'
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 
 type CardSkillProps = {
   title: string
-  image: string
+  image: StaticImageData
 }
 
 export const CardSkill = ({title, image}: CardSkillProps) => {

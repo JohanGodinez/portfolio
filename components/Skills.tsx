@@ -1,6 +1,14 @@
 import React from "react";
-import Image from "next/image";
 import { CardSkill } from './molecules'
+import HtmlImage from '../public/img/skills/html.png'
+import CssImage from "../public/img/skills/css.png";
+import JSImage from '../public/img/skills/javascript.png';
+import ReactImage from '../public/img/skills/react.png';
+import NextImage from '../public/img/skills/nextjs.png';
+import NodeImage from '../public/img/skills/node.png';
+import AWSImage from '../public/img/skills/aws.png';
+import DockerImage from '../public/img/skills/docker.png';
+
 
 const Skills = () => {
   return (
@@ -11,20 +19,14 @@ const Skills = () => {
         </p>
         <h2 className="py-4">What I Can Do</h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-          <CardSkill image="/../public/img/skills/html.png" title="HTML" />
-          <CardSkill image="/../public/img/skills/css.png" title="CSS" />
-          <CardSkill
-            image="/../public/img/skills/javascript.png"
-            title="JavaScript"
-          />
-          <CardSkill image="/../public/img/skills/react.png" title="React" />
-          <CardSkill image="/../public/img/skills/nextjs.png" title="Next Js" />
-          <CardSkill
-            image="/../public/img/skills/node.png"
-            title="Node Js"
-          />
-          <CardSkill image="/../public/img/skills/aws.png" title="AWS" />
-          <CardSkill image="/../public/img/skills/docker.png" title="Docker" />
+          <CardSkill image={HtmlImage} title="HTML" />
+          <CardSkill image={CssImage} title="CSS" />
+          <CardSkill image={JSImage} title="JavaScript" />
+          <CardSkill image={ReactImage} title="React" />
+          <CardSkill image={NextImage} title="Next Js" />
+          <CardSkill image={NodeImage} title="Node Js" />
+          <CardSkill image={AWSImage} title="AWS" />
+          <CardSkill image={DockerImage} title="Docker" />
         </div>
       </div>
     </div>
