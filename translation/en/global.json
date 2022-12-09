@@ -5,5 +5,48 @@
     "skills": "Skills",
     "projects": "Projects",
     "contact": "Contact"
+  },
+  "main": {
+    "subtitle1": "LET'S BUILD SOMETHING TOGETHER",
+    "hi": "Hi, I'm",
+    "name": "Johan",
+    "frontend": "A Front-End Web Developer",
+    "subtitle2": "I'm a front-end web developer specializing in building exceptional digital experiences. I'm focused on building responsive front-end web applications"
+  },
+  "about": {
+    "subtitle1": "ABOUT",
+    "who": "Who I Am",
+    "subtitle2": "I am not your normal developer",
+    "paragraph1": "I specialize in building mobile responsive front-end UI applications that connect with API’s and other backend technologies. I’m passionate about learning new technologies. Though I am most proficient in building front-end applications using HTML, CSS, Javascript, and React, I am a quick learner and can pick up new tech stacks as needed.",
+    "paragraph2": "I started web development by creating a website with some colleagues from the university to manage various processes within the institution. I have experience working directly with clients raising requirements, layout and designing processes until reaching the implementation. In my free time I try to collaborate with content and study various courses, both free and on platforms such as Platzi and Udemy.",
+    "paragraph3": "Check out some of my lastest projects."
+  },
+  "skills": {
+    "subtitle1": "SKILLS",
+    "what": "What I Can Do"
+  },
+  "projects": {
+    "subtitle1": "PROJECTS",
+    "what": "What I Have Built"
+  },
+  "contact": {
+    "subtitle1": "CONTACT",
+    "get": "Get In Touch",
+    "profession": "Front-End Developer",
+    "description": "I am available for freelance or full-time positions. Contact me and let's talk.",
+    "connect": "CONNECT WITH ME",
+    "send": "SEND MESSAGE"
+  },
+  "goloyalty": {
+    "overview":"Overview",
+    "paragraph": "This app is built with Angular and is hosted on Digital Ocean and Firebase API and Client respectively. The application is intended for businesses, to create a means of loyalty for their customers; With the purchase of products, customers accumulate points that can later be exchanged for products or services within the store.",
+    "technologies": "Technologies",
+    "web": "Web Site"
+  },
+  "quiniela": {
+    "overview": "Overview",
+    "paragraph": "This app is built with Next Js and is hosted on Linode and Netlify API and Client respectively. The application was developed as a practice with a partner, to manage a friendly competition where the scores of the World Cup matches or other leagues or sports are predicted.",
+    "technologies": "Technologies",
+    "web": "Web Site"
   }
 }

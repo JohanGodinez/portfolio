@@ -5,5 +5,48 @@
     "skills": "Habilidades",
     "projects": "Proyectos",
     "contact": "Contacto"
+  },
+  "main": {
+    "subtitle1": "CONSTRUYAMOS ALGO JUNTOS",
+    "hi": "Hola, Soy",
+    "name": "Johan",
+    "frontend": "Un desarrollador web front-end",
+    "subtitle2": "Soy un desarrollador web front-end especializado en crear experiencias digitales excepcionales. Estoy enfocado en crear aplicaciones web front-end responsivo."
+  },
+  "about": {
+    "subtitle1": "SOBRE MI",
+    "who": "Quién soy",
+    "subtitle2": "No soy un desarrollador normal",
+    "paragraph1": "Me especializo en la creación de aplicaciones front-end responsivas que se conectan con API y otras tecnologías de back-end. Me apasiona aprender nuevas tecnologías. Aunque soy más competente en la creación de aplicaciones front-end usando HTML, CSS, Javascript y React, aprendo rápido y puedo aprender nuevas pilas tecnológicas según sea necesario.",
+    "paragraph2": "Comencé en el desarrollo web creando un sitio con algunos compañeros de la universidad para gestionar varios procesos dentro de la institución. Tengo experiencia trabajando directamente con clientes levantando requerimientos, maquetando y diseñando procesos hasta llegar a la implementación. En mi tiempo libre intento colaborar con contenido y estudiar varios cursos, tanto gratuitos como en plataformas como Platzi y Udemy.",
+    "paragraph3": "Echa un vistazo a algunos de mis últimos proyectos."
+  },
+  "skills": {
+    "subtitle1": "HABILIDADES",
+    "what": "Que puedo hacer"
+  },
+  "projects": {
+    "subtitle1": "PROYECTOS",
+    "what": "Lo que he construido"
+  },
+  "contact": {
+    "subtitle1": "CONTACTO",
+    "get": "Ponerse en contacto",
+    "profession": "Desarollador Front-End",
+    "description": "Estoy disponible para puestos independientes o de tiempo completo. Contáctame y hablemos.",
+    "connect": "CONECTATE CONMIGO",
+    "send": "ENVIAR MENSAJE"
+  },
+  "goloyalty": {
+    "overview": "Vision general",
+    "paragraph": "Esta aplicación está construida con Angular y está alojada en Digital Ocean y Firebase API y Client respectivamente. La aplicación está destinada a las empresas, para crear un medio de fidelización de sus clientes; Con la compra de productos, los clientes acumulan puntos que luego pueden ser canjeados por productos o servicios dentro de la tienda.",
+    "technologies": "Tecnologías",
+    "web": "Sitio Web"
+  },
+  "quiniela": {
+    "overview": "Vision general",
+    "paragraph": "Esta aplicación está construida con Next Js y está alojada en Linode y Netlify API y Client respectivamente. La aplicación fue desarrollada a modo de practica junto a un compañero, para menejar una competencia amistosa donde se preciden los marcadores de los partidos del mundial u otras ligas o deportes.",
+    "technologies": "Tecnologías",
+    "web": "Sitio Web"
   }
 }

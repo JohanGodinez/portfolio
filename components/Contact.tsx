@@ -1,19 +1,21 @@
 import Image from "next/image";
 import Link from "next/link";
 import ContactImg from "public/img/contact.jpg";
+import { useTranslation } from "react-i18next";
 import { AiOutlineMail } from "react-icons/ai";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 
 function Contact() {
+  const [t, i18n] = useTranslation("global");
   return (
     <div id="contact" className="w-full lg:h-screen p-12">
       <div className="max-w-[1240px] m-auto px-2 py-16 w-full ">
-        <p className="text-xl tracking-widest uppercase text-[#5651e5]">
-          Contact
+        <p className="text-xl tracking-widest uppercase text-emerald-500">
+          {t("contact.subtitle1")}
         </p>
-        <h2 className="py-4">Get In Touch</h2>
+        <h2 className="py-4">{t("contact.get")}</h2>
         <div className="grid lg:grid-cols-5 gap-8">
           {/* left */}
           <div className="col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4">
@@ -26,18 +28,15 @@ function Contact() {
                 />
               </div>
               <div>
-                <h2 className="py-2">Clint Briley</h2>
-                <p>Front-End Developer</p>
-                <p className="py-4">
-                  I am available for freelance or full-time positions. Contact
-                  me and let&apos;s talk.
-                </p>
+                <h2 className="py-2">Johan Godinez</h2>
+                <p>{t("contact.profession")}</p>
+                <p className="py-4">{t("contact.description")}</p>
               </div>
               <div>
-                <p className="uppercase pt-8">Connect With Me</p>
+                <p className="uppercase pt-8">{t("contact.connect")}</p>
                 <div className="flex items-center justify-between py-4">
                   <a
-                    href="https://www.linkedin.com/in/clint-briley-50056920a/"
+                    href="https://www.linkedin.com/in/johan-godinez-2a7b24175/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -121,7 +120,7 @@ function Contact() {
                   ></textarea>
                 </div>
                 <button className="w-full p-4 text-gray-100 mt-4">
-                  Send Message
+                  {t("contact.send")}
                 </button>
               </form>
             </div>
